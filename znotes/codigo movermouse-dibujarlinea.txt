@@ -1,0 +1,21 @@
+function dibujarMouse(evento){
+  if (estado == 1) {   // solo se dibujara si esta el click del mouse presionado
+    dibujarLinea(colorLinea, x, y, evento.layerX, evento.layerY, papel);
+  }
+  x = evento.layerX;
+  y = evento.layerY;
+}
+
+// Funcion para mousedown
+function presionarMouse(evento){
+  estado = 1;         //click presionado  
+  x = evento.layerX;
+  y = evento.layerY;
+}
+
+// Funcion para mouseup
+function soltarMouse(evento){
+  estado = 0;         // click suelto
+  x = evento.layerX;
+  y = evento.layerY;
+}
