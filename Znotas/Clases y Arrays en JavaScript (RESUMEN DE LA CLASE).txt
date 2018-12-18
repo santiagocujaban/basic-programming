@@ -1,0 +1,25 @@
+RESUMEN:
+Clase: Es la definicion completa de un objeto (Se debe usar cuando tengo muchos objetos con los mismos atributos para asi no escribirlo multiples veces). Dentro de las clases no hay que escribir function porque se entiende de manera implicita que todo bloque de codigo dentro de una clase es una funcion. Las clases al igual que pasa con las funciones, JS es lo primero que lee y las monsta en memoria para que esten listas.
+Objetos: Son instancias de la clase dentro una clase
+
+Constructor: Dentro de las clases hay unas funciones que se disparan en el momento en que yo hago un nuevo objeto, esas funciones que se disparan cuando se esta creando el objeto se llaman constructores, constructor es como escribir function pero sin nombre, pero funciona igual que una function.
+
+This: Es un indicador de la instancia de donde estoy
+
+POO: Programacion Orientada a Objetos https://developer.mozilla.org/es/docs/Web/JavaScript/Introducción_a_JavaScript_orientado_a_objetos
+
+Array: Es como si una variable tuviera cajitas. Asi se crea un array vacio var cajitas = []; Los arrays funcionan indexados a 0 (0, 1, 2, 3). Push le empuja un nuevo dato, no importa el numero que voy siempre le agrega al ultimo valor disponible otro nuevo. Se pueden crear un arrays que en vez de que sus posiciones sean numeros, sean texto. La forma estandar de llamarle a esto [] es sub [0] sub cero, [‘nombre’] sub nombre.
+
+En programacion podemos crear diccionarios de equivalencias Esto en algunos lenguajes de programacion existe como la estructura de datos diccionario (existe en python, ruby, etc…).
+
+En JS no existe de una manera natural pero funciona. Es como si llamara un array asociativo (Un array asociativo es un objeto literal en realidad)
+
+CTRL + L: Limpia la consola (El codigo escrito sigue en memoria)
+
+appendChild: Es una funcion que te agregas hijos al documento (Recuerda agregarle el appendChild a la etiqueta correcta en el video se muestra como se le agrega a document.body y como se corrige en el caso de que te equivoques)
+
+Elements: Te muestra como esta el HTML despues de que JS lo haya manipulado
+
+<hr />: Te traza una linea horizontal
+
+for (var variable in/of object): Este ciclo solo va a operar por la cantidad de objetos que estan dentro del array. Ese objeto lo va a colocar dentro de var variable. El in te trae el indice del array. Este es un ciclo especial que me recorre la cantidad de veces que un objeto existe. Es una buena practica colocarle el var a la variable del ciclo. En ECMASCRIPT 15 hay un cambio en este ciclo que lo hace mas sencillo (of). of me muestra directamente la instancia en vez del indice. En los casos donde me sirve el indice usamos in. En los casos donde me sirve el objeto usamos of. El in y el of te sirve para recorrer un objeto por dentro y en ocasiones para recorrer arrays que no conocemos.
