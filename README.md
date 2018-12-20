@@ -1,6 +1,6 @@
 # Acerca de 
 
-Este repositorio contiene los proyectos desarrollados en el Curso de Programación Básica de Platzi 💻. Los proyectos se desarrollan en torno al lenguaje de programación JavaScript.
+Este repositorio contiene los proyectos desarrollados en el Curso de Programación Básica de Platzi 💻.
 
 ![status](https://img.shields.io/badge/estado-corriendo-green.svg?colorB=00C106) ![readme](https://img.shields.io/badge/readme-OK-green.svg?colorB=00C106) ![commits](https://img.shields.io/badge/commits-51-blue.svg) ![tag](https://img.shields.io/badge/tag-NO-red.svg)
 ![template](https://img.shields.io/badge/template-NO-red.svg) ![techs](https://img.shields.io/badge/techs-javascript—html—nodejs-orange.svg)
@@ -11,7 +11,12 @@ Este repositorio contiene los proyectos desarrollados en el Curso de Programaci�
 Primer código en HTML. ¡Comparte tu primer código aquí!
 
 ### [Primer proyecto (Peso en otro planeta)](https://github.com/santiagocujaban/programacion-basica/tree/master/01Primer%20proyecto%20(Peso%20en%20otro%20planeta)) 🌌 
-En este proyecto se aprecian las bases de JavaScript, utilizando: Funciones y métodos básicos (var, prompt, parseFloat, document.write, toFixed... etc), Condiciones (if, else if, else... operadores condicionales ternarios (?:) ) y Operaciones matemáticas sencillas. La base del proyecto es la gravedad en diferentes planetas. Entonces... ¿Cuánto pesas en otros planetas?👽
+En este proyecto se aprecian las bases de JavaScript, utilizando: 
+- Funciones y métodos básicos (var, prompt, parseFloat, document.write, toFixed... etc).
+- Condiciones (if, else if, else... operadores condicionales ternarios (?:) ).
+- Operaciones matemáticas sencillas. 
+
+La base del proyecto es la gravedad en diferentes planetas. Entonces... ¿Cuánto pesas en otros planetas?👽
 
 ### [Segundo proyecto (Dibujando con canvas)](https://github.com/santiagocujaban/programacion-basica/tree/master/02Segundo%20proyecto%20(Dibujando%20con%20canvas)) 📑✒️
 Aquí hacemos uso de la etiqueta canvas como medio para dibujar en el documento de la página web. Encontramos en este proyecto programas como:
