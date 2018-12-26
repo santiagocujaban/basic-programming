@@ -15,7 +15,7 @@ var g_ura = 8.7;
 var g_nep = 11.15;
 var g_plu = 0.62;
 
-//VARIABLES GLOBALES
+//OTRAS VARIABLES GLOBALES
 
 var nombre;
 var peso_final;
@@ -28,7 +28,7 @@ planeta == 1 ? peso_final = g_mer * peso / g_tie: planeta == 2 ? peso_final = g_
 
 planeta == 1 ? nombre = "Mercurio": planeta == 2 ? nombre = "Venus": planeta == 3 ? nombre = "Tierra": planeta == 4 ? nombre = "Marte": planeta == 5 ? nombre = "Jupiter": planeta == 6 ? nombre = "Saturno": planeta == 7 ? nombre = "Urano": planeta == 8 ? nombre = "Neptuno": planeta == 9 ? nombre = "Plutón": nombre = "Kryptón";
 
-//SALIDA DE DATOS POR PANTALLA EN EL DOCUMENT...
+//SALIDA DE DATOS POR PANTALLA EN EL DOCUMENTO...
 
 peso_final = parseInt(peso_final);
 document.write("Su peso en el planeta " + nombre + " es: " + peso_final + "kg");
