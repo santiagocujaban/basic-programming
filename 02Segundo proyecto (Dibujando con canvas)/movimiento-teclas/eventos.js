@@ -1,4 +1,4 @@
-var teclas = {
+var teclas = { // variable tipo JSON que contiene las flechas del teclado en keycode
   UP: 38,
   DOWN: 40,
   LEFT: 37,
@@ -11,7 +11,7 @@ var papel = cuadrito.getContext("2d");
 var x = 100;
 var y = 100;
 
-dibujarLinea("red", x-1, y-1, x+1, y+1, papel);
+dibujarLinea("red", x-1, y-1, x+1, y+1, papel); // Esta funcion indica la posicion del trazo de inicio en el canvas
 
 function dibujarLinea(color, xi, yi, xf, yf, lienzo)
 {
@@ -28,11 +28,11 @@ function dibujarTeclado(evento)
 {
   var colorsito = "blue";
   var movimiento = 1;
-  switch(evento.keyCode)
+  switch(evento.keyCode) // Condicional switch en donde definimos lo que pasará si las flechas del teclado son oprimidas
   {
     case teclas.UP:
       dibujarLinea(colorsito, x, y, x, y - movimiento, papel);
-      y = y - movimiento;
+      y = y - movimiento; // aquí y en espacios similares se indica la posición final del trazo
     break;
     case teclas.DOWN:
       dibujarLinea(colorsito, x, y, x, y + movimiento, papel);
