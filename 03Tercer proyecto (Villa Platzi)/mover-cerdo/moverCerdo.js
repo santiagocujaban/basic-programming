@@ -92,4 +92,3 @@ function moverCerdo(evento)
     break;
   }
 }
-// Si tienes preguntas sobre el codigo no tengas miedo de preguntar! El miedo no te va a dejar avanzar en este curso :)
